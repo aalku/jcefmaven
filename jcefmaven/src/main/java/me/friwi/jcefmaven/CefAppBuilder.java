@@ -73,8 +73,7 @@ public class CefAppBuilder {
         jcefArgs.addAll(DEFAULT_JCEF_ARGS);
         cefSettings = DEFAULT_CEF_SETTINGS.clone();
         mirrors = new HashSet<>();
-        mirrors.add("https://github.com/jcefmaven/jcefmaven/releases/download/{mvn_version}/jcef-natives-{platform}-{tag}.jar");
-        mirrors.add("https://repo.maven.apache.org/maven2/me/friwi/jcef-natives-{platform}/{tag}/jcef-natives-{platform}-{tag}.jar");
+        mirrors.add("https://github.com/aalku/jcefmaven/releases/download/{mvn_version}/jcef-natives-{platform}-{tag}.jar");
     }
 
     /**
